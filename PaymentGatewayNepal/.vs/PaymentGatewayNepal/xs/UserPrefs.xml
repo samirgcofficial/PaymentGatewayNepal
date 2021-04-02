@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{76685DF1-A10B-40D3-9A8E-245DC15C8D70}|Default">
+  <MonoDevelop.Ide.ItemProperties.PaymentGatewayNepal.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.PaymentGatewayNepal.Android FirstBuild="True" PreferredExecutionTarget="Android.PDAID19052701859" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PaymentGatewayNepal/MainPage.xaml.cs">
+    <Files>
+      <File FileName="PaymentGatewayNepal/MainPage.xaml.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PaymentGatewayNepal" expanded="True">
+            <Node name="PaymentGatewayNepal" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PaymentGatewayNepal FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
