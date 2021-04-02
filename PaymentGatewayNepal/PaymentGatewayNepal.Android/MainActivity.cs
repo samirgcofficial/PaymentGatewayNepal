@@ -4,6 +4,7 @@ using Android.App;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.OS;
+using Android.Content;
 
 namespace PaymentGatewayNepal.Droid
 {
@@ -23,6 +24,15 @@ namespace PaymentGatewayNepal.Droid
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            string resposeCode = resultCode.ToString();
+            if (resposeCode == "Ok")
+            {
+
+            }
         }
     }
 }

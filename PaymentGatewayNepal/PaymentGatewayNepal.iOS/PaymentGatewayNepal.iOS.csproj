@@ -68,6 +68,9 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\KhaltiPaymentSystem.cs" />
+    <Compile Include="Services\EsewaPaymentSystem.cs" />
+    <Compile Include="EsewaSDKPaymentDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -132,5 +135,12 @@
       <Project>{CA73FF2D-4E2A-4BDC-B22B-FD6C37820ECB}</Project>
       <Name>PaymentGatewayNepal</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PGNiOS\PGNiOS.csproj">
+      <Project>{0B9745B7-1A94-47F7-B90F-07FADA8518D1}</Project>
+      <Name>PGNiOS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
 </Project>

@@ -1,25 +1,52 @@
-﻿<Properties StartupConfiguration="{76685DF1-A10B-40D3-9A8E-245DC15C8D70}|Default">
-  <MonoDevelop.Ide.ItemProperties.PaymentGatewayNepal.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.PaymentGatewayNepal.Android FirstBuild="True" PreferredExecutionTarget="Android.PDAID19052701859" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PaymentGatewayNepal/MainPage.xaml.cs">
+﻿<Properties StartupConfiguration="{B78D4A33-CB5B-455B-BEAA-1F40D1365EA4}|Default">
+  <MonoDevelop.Ide.ItemProperties.PaymentGatewayNepal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1A56C4B2-D53F-4CF7-896A-CC6B05A051A2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PGNiOS/ApiDefinition.cs">
     <Files>
-      <File FileName="PaymentGatewayNepal/MainPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="PGNiOS/ApiDefinition.cs" Line="70" Column="36" />
+      <File FileName="PaymentGatewayNepal.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="PaymentGatewayNepal.iOS/Services/KhaltiPaymentSystem.cs" Line="1" Column="1" />
+      <File FileName="PaymentGatewayNepal.iOS/Services/EsewaPaymentSystem.cs" Line="8" Column="43" />
+      <File FileName="PaymentGatewayNepal.iOS/EsewaSDKPaymentDelegate.cs" Line="8" Column="1" />
+      <File FileName="PGNiOS/Structs.cs" Line="1" Column="1" />
+      <File FileName="PGNiOS/Properties/AssemblyInfo.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PaymentGatewayNepal" expanded="True">
-            <Node name="PaymentGatewayNepal" expanded="True" />
+          <Node name="PaymentGatewayNepal" expanded="True" selected="True">
+            <Node name="PaymentGatewayNepal" expanded="True">
+              <Node name="Services" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="PaymentGatewayNepal.iOS" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="PGNiOS" expanded="True">
+              <Node name="NativeReferenceFolder" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.PaymentGatewayNepal FirstBuild="True" />
+  <DisabledProjects>
+    <String>PGNAndroid/PGNAndroid.csproj</String>
+    <String>PaymentGatewayNepal.Android/PaymentGatewayNepal.Android.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/samirgc/Dropbox/My Mac (samirs-MacBook-Pro.local)/Desktop/PaymentGatewayNepal/PaymentGatewayNepal/PaymentGatewayNepal.Android/MainActivity.cs" relfile="PaymentGatewayNepal.Android/MainActivity.cs" line="29" column="1" />
+      <Breakpoint file="/Users/samirgc/Dropbox/My Mac (samirs-MacBook-Pro.local)/Desktop/PaymentGatewayNepal/PaymentGatewayNepal/PaymentGatewayNepal.Android/MainActivity.cs" relfile="PaymentGatewayNepal.Android/MainActivity.cs" line="31" column="1" />
+      <Breakpoint file="/Users/samirgc/Dropbox/My Mac (samirs-MacBook-Pro.local)/Desktop/PaymentGatewayNepal/PaymentGatewayNepal/PaymentGatewayNepal.Android/MainActivity.cs" relfile="PaymentGatewayNepal.Android/MainActivity.cs" line="33" column="1" />
+      <Breakpoint file="/Users/samirgc/Dropbox/My Mac (samirs-MacBook-Pro.local)/Desktop/PaymentGatewayNepal/PaymentGatewayNepal/PaymentGatewayNepal.Android/Services/KhaltiPaymentSystem.cs" relfile="PaymentGatewayNepal.Android/Services/KhaltiPaymentSystem.cs" line="20" column="1" />
+      <Breakpoint file="/Users/samirgc/Dropbox/My Mac (samirs-MacBook-Pro.local)/Desktop/PaymentGatewayNepal/PaymentGatewayNepal/PaymentGatewayNepal.Android/Services/KhaltiPaymentSystem.cs" relfile="PaymentGatewayNepal.Android/Services/KhaltiPaymentSystem.cs" line="26" column="1" />
+      <Breakpoint file="/Users/samirgc/Dropbox/My Mac (samirs-MacBook-Pro.local)/Desktop/PaymentGatewayNepal/PaymentGatewayNepal/PaymentGatewayNepal.iOS/Services/EsewaPaymentSystem.cs" relfile="PaymentGatewayNepal.iOS/Services/EsewaPaymentSystem.cs" line="14" column="1" />
+      <Breakpoint file="/Users/samirgc/Dropbox/My Mac (samirs-MacBook-Pro.local)/Desktop/PaymentGatewayNepal/PaymentGatewayNepal/PaymentGatewayNepal.iOS/Services/EsewaPaymentSystem.cs" relfile="PaymentGatewayNepal.iOS/Services/EsewaPaymentSystem.cs" line="22" column="1" />
+      <Breakpoint file="/Users/samirgc/Dropbox/My Mac (samirs-MacBook-Pro.local)/Desktop/PaymentGatewayNepal/PaymentGatewayNepal/PaymentGatewayNepal.iOS/Services/EsewaPaymentSystem.cs" relfile="PaymentGatewayNepal.iOS/Services/EsewaPaymentSystem.cs" line="23" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
